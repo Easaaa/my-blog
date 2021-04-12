@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,200;1,400;1,600;1,700;1,800&display=swap');
+
+@tailwind base;
+
+/* Write your own custom base styles here */
+
+/* Start purging... */
+@tailwind components;
+/* Stop purging. */
+
+/* Write you own custom component styles here */
+
+/* Start purging... */
+@tailwind utilities;
+/* Stop purging. */
+
+/* Your own custom utilities */
+
+p {
+  @apply font-nunito;
+}
+
+h3,
+h4,
+h5 {
+  @apply font-nunito;
+}
+
+pre {
+  @apply p-4;
+  @apply my-4;
+  @apply rounded-md;
+  background-color: #2c2c32;
+  color: white;
+}
+
+code {
+  font-family: monospace;
+  font-size: inherit;
+}
+
+a {
+  @apply font-nunito;
+}
+
+mark {
+  background: #ceffbb;
+}
