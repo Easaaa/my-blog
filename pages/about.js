@@ -7,22 +7,21 @@ import PostPreview from '../components/post-preview';
 import { getAllPosts } from '../lib/api';
 import Head from 'next/head';
 
-export default function Index({ allPosts }) {
+export default function About({ allPosts }) {
   const heroPost = allPosts[0];
   const morePosts = allPosts.slice(1);
   return (
     <>
       <Layout>
         <Head>
-          <title>A Dev Blog</title>
+          <title>About Me</title>
         </Head>
         <Container>
           <Intro />
-          <section className='mb-6 md:mb-12 lg:mb-24 sm:mt-20'>
-            <h2 className='text-4xl font-bold leading-tight tracking-tighter md:text-5xl'>
+          <section className='mb-6 md:mb-12 lg:mb-24'>
+            <h2 className='mb-8 text-6xl font-bold leading-tight tracking-tighter md:text-7xl'>
               Latest
             </h2>
-            <div className='h-[5px] bg-gray-900 w-10 mb-8' />
             <PostPreview
               title={heroPost.title}
               date={heroPost.date}

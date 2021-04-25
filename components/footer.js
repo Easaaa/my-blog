@@ -1,7 +1,9 @@
+import { useState } from 'react';
 import Container from './container';
 import { FaTwitter, FaLinkedinIn } from 'react-icons/fa';
 
 export default function Footer() {
+  const [toggleMsg, setToggleMsg] = useState(false);
   return (
     <footer className='border-t bg-accent-1 border-accent-2'>
       <Container>
@@ -23,10 +25,18 @@ export default function Footer() {
                 placeholder='Email Address'
               />
 
-              <button class='px-4 py-2 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-gray-900 rounded-md hover:bg-indigo-600 focus:outline-none focus:bg-indigo-600'>
+              <button
+                onClick={() => setToggleMsg(!toggleMsg)}
+                class='px-4 py-2 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-gray-900 rounded-md hover:bg-gray-700 focus:outline-none focus:bg-gray-700'>
                 Let's Roll
               </button>
             </div>
+            {toggleMsg && (
+              <div className='p-2 mt-4 bg-green-300 rounded-md'>
+                Sorry, I'm lazy, is not active yet and
+                <br /> the footer design is cooler with the form 😆.
+              </div>
+            )}
           </div>
 
           <div className='flex flex-row w-1/2 place-content-center lg:justify-end lg:pl-4'>

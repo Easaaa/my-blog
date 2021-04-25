@@ -12,15 +12,16 @@ export default function Intro() {
         g.
       </h1>
       <nav className='grid grid-flow-col gap-2 mt-5 text-lg text-center md:gap-4 lg:gap-8 md:text-left md:pl-8'>
-        {/*   <Link href='#'>
+        {/* <Link href='#'>
           <a>Blog</a>
-        </Link>
-        <Link href='#'>
+        </Link> */}
+        <Link href='/posts/my-presentation'>
           <a>About</a>
         </Link>
-        <Link href='#'>
+
+        <Link href='/projects'>
           <a>Projects</a>
-        </Link> */}
+        </Link>
         <Link href='/'>
           <a>Home</a>
         </Link>
