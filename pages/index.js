@@ -19,10 +19,10 @@ export default function Index({ allPosts }) {
         <Container>
           <Intro />
           <section className='mb-6 md:mb-12 lg:mb-24 sm:mt-20'>
-            <h2 className='text-4xl font-bold leading-tight tracking-tighter md:text-5xl'>
+            <h2 className='text-2xl font-bold leading-tight tracking-tighter text-gray-400'>
               Latest
             </h2>
-            <div className='h-[5px] bg-gray-900 w-10 mb-8' />
+            <div className='h-[5px] bg-gray-400 w-10 mb-8' />
             <PostPreview
               title={heroPost.title}
               date={heroPost.date}

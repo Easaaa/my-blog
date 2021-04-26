@@ -11,7 +11,7 @@ export default function Intro() {
         />
         g.
       </h1>
-      <nav className='grid grid-flow-col gap-2 mt-5 text-lg text-center md:gap-4 lg:gap-8 md:text-left md:pl-8'>
+      <nav className='grid grid-flow-col gap-5 mt-5 text-lg text-center sm:gap-2 md:gap-4 lg:gap-8 md:text-left md:pl-8'>
         {/* <Link href='#'>
           <a>Blog</a>
         </Link> */}

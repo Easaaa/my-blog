@@ -32,6 +32,7 @@ pre {
   @apply rounded-md;
   background-color: #2c2c32;
   color: white;
+  overflow-x: auto;
 }
 
 code {

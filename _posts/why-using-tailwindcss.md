@@ -8,20 +8,20 @@ ogImage:
 
 Hi, this is Leonardo.
 
-I'm a simple human that tries to improve day by day, step by step. If it’s your first time here you can read who I am in this blog post <mark>[“Who am I”](https://www.leonardotononi.com/blog/nice-to-meet-you)</mark>, <strong>otherwise skip this part.</strong>
+I'm a simple human that tries to improve day by day, step by step. If it’s your first time here you can read who I am in this blog post <mark>[“Who am I”](https://www.leonardotononi.com/posts/my-presentation)</mark>, <strong>otherwise skip this part.</strong>
 
-## Introduction
+### Introduction
 
 From their website we understand that TailwindCss is a utility first css framework. It allows us to write our style directly in the html. “Yes OK” you will say “but I have a thousand of questions!” Don’t worry, in the article I will try to answer everything you should evaluate to see if it is a right fit for your needs.
 
-## What it is and what are the advantages?
+### What it is and what are the advantages?
 
 Let’s get straight to the point. Why bother learning this new way of writing CSS? Well I’d start by saying it’s fucking fast! What do I mean by fast? Imagine no longer having to create separate files for component markups and its styles. Imagine no longer having to think of names for “Wrapper” or “WrapperOfWrapperOfWrapper”. Not having to continually import or export css variables. Imagine you can do it all in one line.
 
 Imagine being able to copy and paste entire structures of components already created by someone else, where you can apply your personal style in the blink of an eye. Imagine being able to focus primarily on creating the logic of your application.
 That is Tailwind.
 
-## Why is it better than others?
+### Why is it better than others?
 
 I have never really tried other css frameworks in the same way I tried Tailwind. But what I can tell you is that while others have a more defined and less easily customizable style, with tailwind everything remains in our hands, but at the same time it allows you to have a good level of predefined style guidelines.
 So if you are like me, you don’t have a strong knowledge of design, you can still create beautiful applications or web pages without compromise the unicity of your style.
@@ -50,13 +50,13 @@ In my humble opinion this is really cool and everything is so easily customizabl
 
 > Also, most Tailwind projects ship less than 10KB of CSS to the client.
 
-## Why not just use CSS?
+### Why not just use CSS?
 
 Because Tailwind requires a minimal learning curve and the documentation it’s really well done. Over time, it will make the creation of projects much easier and faster, without having to leave behind the flexibility of pure css.
 
 Furthermore, once you have decided to create a project with tailwind, it will always be possible to apply other types of css, like styled components.
 
-## Recap
+### Recap
 
 - Speed up the creation and the design of any project
 - Allows you to raise the bar of your style
@@ -64,7 +64,7 @@ Furthermore, once you have decided to create a project with tailwind, it will al
 - Highly customizable
 - Dev friendly, covers the real needs that a developer may have in 2021
 
-## EXTRA: some useful FREE resources
+### EXTRA: some useful FREE resources
 
 - [Tailwind CSS Components. Examples and templates](https://tailwindcomponents.com/)
 - [Tailblocks — Ready-to-use Tailwind CSS blocks](https://tailblocks.cc/)

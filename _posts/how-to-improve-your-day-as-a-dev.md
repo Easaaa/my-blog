@@ -9,7 +9,7 @@ ogImage:
 
 Hi, this is Leonardo.
 
-I'm a simple human that tries to improve day by day, step by step. If it’s your first time here you can read who I am in this blog post <mark>[“Who am I”](https://www.leonardotononi.com/blog/nice-to-meet-you)</mark>, <strong>otherwise skip this part.</strong>
+I'm a simple human that tries to improve day by day, step by step. If it’s your first time here you can read who I am in this blog post <mark>[“Who am I”](https://www.leonardotononi.com/posts/my-presentation)</mark>, <strong>otherwise skip this part.</strong>
 
 ### What is this post about?
 
