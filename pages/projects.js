@@ -21,9 +21,9 @@ export default function Projects() {
             <div className='grid w-full max-w-5xl gap-16 mt-6 xl:gap-0 xl:grid-flow-col sm:mt-24'>
               <Project
                 img='url(/assets/camoscio.png)'
-                name='Il Camoscio'
+                name='BreakThrough Poker'
                 desc='Poker Web App'
-                link='https://csh.vercel.app'
+                link='https://bt-poker.com'
                 cta='View'
               />
               <Project
